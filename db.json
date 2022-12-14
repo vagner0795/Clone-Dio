@@ -1,0 +1,6 @@
+{
+    "users":[
+        {"id": 1, "name": "Midoriya Izuku", "email": "izuku@heroacademy.com", "password": "plusUltra"},
+        {"id": 2, "name": "Todoroki Shouto", "email": "shouto@heroacademy.com", "password": "12345678"}
+    ]
+}
