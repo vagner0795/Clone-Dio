@@ -1,4 +1,4 @@
-import { MdLock, MdEmail } from 'react-icons/md'
+import { MdLock, MdEmail, MdPerson } from 'react-icons/md'
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../../components/button';
 import { Header } from '../../components/header';
@@ -43,7 +43,7 @@ return (
                     <TitleLogin>Comece agora grátis</TitleLogin>
                     <SubTitleLogin>Crie sua conta e make the change</SubTitleLogin>
                     
-                        <Input name="user"  control={''} placeholder='Nome completo' required leftIcon={<MdEmail/>} type="text"/>
+                        <Input name="user"  control={''} placeholder='Nome completo' required leftIcon={<MdPerson/>} type="text"/>
                         <Input name="email" control={''}  placeholder='Email' required leftIcon={<MdEmail/>} type="email"/>
                         <Input name="password" control={''} placeholder='Senha' required leftIcon={<MdLock/>} type="password" />
                         <br/>
